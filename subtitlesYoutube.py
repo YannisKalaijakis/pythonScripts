@@ -4,7 +4,7 @@ nltk.download('punkt')
 
 srt = YouTubeTranscriptApi.get_transcript('jQVCSKpQmCo', languages=['en'])
 
-with open("subtitles_eliamep.txt", "w") as f:
+with open("subtitles.txt", "w") as f:
    
 
     for i in srt:
